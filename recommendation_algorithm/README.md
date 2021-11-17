@@ -1,6 +1,6 @@
 # Recommendation algorithm
 
-![Recc_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/recommendation_algorithm/cosine/angles.png)
+![Recc_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/recommendation_algorithm/images/cosine.png)
 
 **Outputs from terminal:**
 
