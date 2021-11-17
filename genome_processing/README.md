@@ -1,4 +1,4 @@
-![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/dna.png)
+![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/dna.jpg)
 
 # DNA Sequencing 
 
@@ -11,6 +11,8 @@ The code generates an output file that contains the index of the matches of each
 sequence with the reference. Also, it outputs the percentage of how many matches
 each sequence has (i.e. if a sequence matche once, twice or does not match the 
 reference) and the computing time.
+
+![Brief_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/alignments.png)
 
 ## Outputs from terminal
 
@@ -39,6 +41,8 @@ aligns 2: 0.09961666666666667<br/>
 elapsed time: 23.5590078830719<br/>
 
 ## Scalability
+
+![Datasets_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/datasets.png)
 
 |n°| ref_l	 |  magnitude	|reads	| rlength | time   |   magnitude
 |---|---|---|---|---|---|---|
