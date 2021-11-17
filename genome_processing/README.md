@@ -1,5 +1,4 @@
-![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob
-/master/genome_processing/dna.png)
+![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/dna.png)
 
 # DNA Sequencing 
 
