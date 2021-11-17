@@ -1,5 +1,3 @@
-![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg)
-
 # DNA Sequencing 
 
 This project is a Python algorithm that is able to generate DNA references and 
@@ -11,6 +9,8 @@ The code generates an output file that contains the index of the matches of each
 sequence with the reference. Also, it outputs the percentage of how many matches
 each sequence has (i.e. if a sequence matche once, twice or does not match the 
 reference) and the computing time.
+
+![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg)
 
 ## Alignments and references
 
