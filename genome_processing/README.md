@@ -12,6 +12,8 @@ sequence with the reference. Also, it outputs the percentage of how many matches
 each sequence has (i.e. if a sequence matche once, twice or does not match the 
 reference) and the computing time.
 
+## Alignments and references
+
 ![Brief_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/alignments.png)
 
 ## Outputs from terminal
@@ -40,9 +42,11 @@ aligns 1: 0.75<br/>
 aligns 2: 0.1<br/>
 elapsed time: 23.56<br/>
 
-## Scalability
+## Datasets
 
 ![Datasets_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/datasets.png)
+
+## Computing time
 
 |n°| ref_l	 |  magnitude	|reads	| rlength | time   |   magnitude
 |---|---|---|---|---|---|---|
