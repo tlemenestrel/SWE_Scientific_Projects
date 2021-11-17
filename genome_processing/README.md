@@ -19,26 +19,26 @@ reference) and the computing time.
 python3 processdata.py ref_1.txt reads_1.txt align_1.txt<br/>
 reference_length: 1000<br/>
 number reads: 600<br/>
-aligns 0: 0.12166666666666667<br/>
+aligns 0: 0.12<br/>
 aligns 1: 0.75<br/>
-aligns 2: 0.12833333333333333<br/>
-elapsed time: 0.003749847412109375<br/>
+aligns 2: 0.13<br/>
+elapsed time: 0.01<br/>
 
 python3 processdata.py ref_2.txt reads_2.txt align_2.txt <br/>
 reference_length: 10000<br/>
 number reads: 6000<br/>
 aligns 0: 0.15<br/>
-aligns 1: 0.7546666666666667<br/>
-aligns 2: 0.09533333333333334<br/>
-elapsed time: 0.22991514205932617<br/>
+aligns 1: 0.75<br/>
+aligns 2: 0.09<br/>
+elapsed time: 0.23<br/>
 
 $ python3 processdata.py ref_3.txt reads_3.txt align_3.txt<br/>
 reference_length: 100000<br/>
 number reads: 60000<br/>
-aligns 0: 0.15221666666666667<br/>
-aligns 1: 0.7481666666666666<br/>
-aligns 2: 0.09961666666666667<br/>
-elapsed time: 23.5590078830719<br/>
+aligns 0: 0.15<br/>
+aligns 1: 0.75<br/>
+aligns 2: 0.1<br/>
+elapsed time: 23.56<br/>
 
 ## Scalability
 
