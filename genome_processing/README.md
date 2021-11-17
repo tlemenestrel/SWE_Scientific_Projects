@@ -1,6 +1,6 @@
-![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg)
-
 # DNA Sequencing 
+
+![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg)
 
 This project is a Python algorithm that is able to generate DNA references and 
 compute the alignments of given DNA squences with the generated reference. This
