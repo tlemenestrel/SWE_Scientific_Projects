@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\geometry{left=3cm, right=3cm, top=2cm, bottom=2cm}
+\title{Write-up: Project part 1}
+\author{Thomas Le Menestrel}
+\date{\today}
+\setlength{\parindent}{0pt}\begin{document}
+\maketitle
+
+\begin{enumerate}
+\item \textbf{Pseudo-code for Conjugate Gradient (CG) algorithm}
+\begin{algorithm}
+\caption{CG algorithm} 
+\begin{algorithmic}
+    \STATE \textbf{Initialize}: $u_0$
+    \STATE $r_0=b-Au_0$
+    \STATE $p_0=r_0$
+    \STATE $niter=0$
+    \WHILE{$niter<nitermax$}
+        \STATE $niter=niter + 1$
+        \STATE $\alpha_n={r_n}^Tr_n/{p_n}^TAp_n$
+        \STATE $u_{n+1}=u_n+\alpha_np_n$
+        \STATE $r_{n+1}=r_n-\alpha_nAp_n$
+        \IF{$\left\|r_{n+1}\right\|_2/\left\|r_0\right\|_2<threshold$}
+            \STATE \textbf{break}
+        \ENDIF
+        \STATE $\beta_n={r_{n+1}}^Tr_{n+1}/{r_n}^Tr_n$
+        \STATE $p_{n+1}=r_{n+1}+\beta_np_n$
+    \ENDWHILE
+\end{algorithmic}
+\end{algorithm}
+
+\bigskip
+\noindent
+\smallskip
+\noindent
+\textbf{Answer}:
+\smallskip
+
+The CG algorithm allows to solve Ax = b when A is sparse and with initial guess x. To avoid redundancy and use functions, I first wrote down the major steps of the algorithms, which were the following:
+
+\begin{itemize}
+\item Add or substract vectors
+\item Multiply a vector by a scalar
+\item Dot product of two vectors
+\item 2-norm of a vector
+\item CSR matrix-vector multiplication
+\end{itemize}
+
+Based on this, I implemented those operations to build the CG algorithm using 5 different C++ functions, which are:
+\begin{itemize}
+\item addVecsWithCoef(vec1, vec2, coef), which returns x + coef * y
+\item multiplyVecByScalar(vec, scalar) to multiply vec by a scalar
+\item dotPrd(x), which computes the dot product of two vectors
+\item L2Norm(vec), which computes the L2 norm of a vector
+\item csr\_mat\_vec\_product(A, x), which computes the matrix-vector multiplication Ax 
+\end{itemize}
+
+\end{document}
