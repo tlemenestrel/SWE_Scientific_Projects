@@ -1,0 +1,5 @@
+GAG 3 6
+CTT 0
+AGT 7
+ACT -1
+TTG 1
