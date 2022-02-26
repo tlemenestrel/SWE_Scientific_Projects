@@ -1,8 +1,10 @@
 # Image Processing
 
-This C++ project 
+Image processing is an important category of computations utilized in many science and engineering fields. Some important computations in image processing include focus detection and various filtering operations to smooth or sharpen an image, detect edges, etc.
 
-![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg)
+The goal of this project is to developp a C++ image class that can read and write JPEG files, and has methods to compute the sharpness of the image and smooth the image using a box blur kernel of a specified size.
+
+![Boxblur](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/image_processing/boxblur.png)
 
 ## Code description
 
@@ -28,3 +30,5 @@ Also, it uses a Sharpness() method that returns the sharpness of the image.
 Finally, the main file loads the image stanford.jpg and computes and outputs 
 the sharpness for kernel sizes of 3, 7, . . . , 23, 27 and then compute and 
 output the sharpness of the resulting images.
+
+![matrix](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/image_processing/matrix.png)
