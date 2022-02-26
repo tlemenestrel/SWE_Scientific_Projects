@@ -1,3 +1,11 @@
+# Image Processing
+
+This C++ project 
+
+![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg)
+
+## Code description
+
 My code first implements an image class with a constructor that accepts a string
 containing the name of the JPEG file to be read. The constructor reads the file 
 and stores the image data as a data attribute. It calls a function called
