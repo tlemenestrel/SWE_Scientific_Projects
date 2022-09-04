@@ -82,13 +82,13 @@ The 4th function writes the final output file and iterates over the dictionnary 
 
 ### Terminal commands and outputs
 
-1. First, cd into the genome_processing folder:
+1. First, cd into the recommendation_algorithm folder:
 
     ```
     $ cd recommendation_algorithm
     ```
 
-2. Then, run the following command to process a given sequence:
+2. Then, run the following command to run the software on the ml-100k dataset:
 
     ```
     $ $ python3 similarity.py ml-100k/u.data similarities.txt
