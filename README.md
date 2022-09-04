@@ -58,6 +58,50 @@ each sequence has_ (i.e. if a sequence matche once, twice or does not match the 
 
 </details>
 
+## Recommendation Algorithm
+
+<table>
+<tr>
+<td>
+
+**Recommendation algorithm** is a Python software to compute similarities between movies using cosine similarity and recommend new movies to users. It is made of several functions.
+
+The first one is key_function, an auxiliary function to sort the lines that takes a line of a file as an input. It is later used in the 2nd function sort_file, which takes as input the name of the file to sort and sorts it according to the elements in the first "column" of the txt file, which here is the movie id.
+
+The 3rd function computes the average movie ratings and takes as input a dictionnary which it will use to store the values and the input dictionnary with the movies and their ratings.
+
+The 4th function writes the final output file and iterates over the dictionnary and its sub dictionnaries to print out the movie id, its match (with the id) and the cosine similarity score. The file is finally according to the input filename in the .txt format.
+
+<p align="center">
+<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/recommendation_algorithm/images/cosine.png" width="700">
+</p>
+
+</td>
+</tr>
+</table>
+
+### Terminal commands and outputs
+
+1. First, cd into the genome_processing folder:
+
+    ```
+    $ cd recommendation_algorithm
+    ```
+
+2. Then, run the following command to process a given sequence:
+
+    ```
+    $ $ python3 similarity.py ml-100k/u.data similarities.txt
+    ```
+3. You should get the following output:
+    ```
+    Input MovieLens file: ml-100k/u.data
+    Output file for similarity data: similarities.txt
+    Minimum number of common users: 5
+    Read 100000 with total of 1682 movies and 943 users
+    Computed similarities in 121.71 seconds
+    ```
+
 ## Airfoil Computations
 
 <table>
