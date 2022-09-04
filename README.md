@@ -4,6 +4,10 @@ Add a list of the projects
 
 ## Genome Processing
 
+<table>
+<tr>
+<td>
+  
 **Genome Processing** is a Python software to generate _DNA references_ and compute the alignments of given DNA sequences with the _generated reference_. 
 This allows to identify **regions of similarity** that may be a consequence of _evolutionary relationships_ between the sequences. 
 
@@ -11,6 +15,10 @@ The code generates an **output file** that contains the index of the _matches of
 each sequence has_ (i.e. if a sequence matche once, twice or does not match the reference) and the _computing time_.
 
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg" width="500">
+
+</td>
+</tr>
+</table>
 
 ### Alignments and references
 
