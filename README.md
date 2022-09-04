@@ -12,7 +12,7 @@ sequence with the reference. Also, it outputs the percentage of how many matches
 each sequence has (i.e. if a sequence matche once, twice or does not match the 
 reference) and the computing time.
 
-![DNA_image](https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg)
+<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg" width="500">
 
 ### Alignments and references
 
