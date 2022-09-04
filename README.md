@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a collection of **Python** and **C++** softwares built for solving _scientific_ and _engineering_ problems, mostly built using —_pure_ Python/C++ code. 
+This repository contains a collection of **Python** and **C++** softwares built for solving _scientific_ and _engineering_ problems, mostly built using _pure_ Python/C++ code. 
 
 ## Usage 
 
