@@ -15,16 +15,12 @@ The code generates an **output file** that contains the index of the _matches of
 each sequence has_ (i.e. if a sequence matche once, twice or does not match the reference) and the _computing time_.
 
 <p align="center">
-<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg" width="700">
+<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/alignments.png" width="700">
 </p>
 
 </td>
 </tr>
 </table>
-
-### Alignments and references
-
-<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/alignments.png" width="500">
 
 ### Terminal commands and outputs
 
