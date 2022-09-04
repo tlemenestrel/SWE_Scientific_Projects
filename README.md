@@ -1,6 +1,12 @@
 # Software Engineering Scientific Projects
 
-Add a list of the projects
+## Table of Contents
+
+- [Genome Processing](#Genome-Processing)
+- [Recommendation Algorithm](#Recommendation-Algorithm)
+- [Airfoil Computations](#Airfoil-Computations)
+- [Truss Linear Equations](#Truss-Linear-Equations)
+- [## Image Processing](### Image-Processing)
 
 ## Genome Processing
 
@@ -185,6 +191,7 @@ It is able to read any data for a specific angle of attack and compute the lift 
    ```
    
 ## Image Processing
+
 <table>
 <tr>
 <td>
