@@ -26,7 +26,7 @@ each sequence has_ (i.e. if a sequence matche once, twice or does not match the 
 
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/alignments.png" width="500">
 
-<details><summary><b>Show command line commands</b></summary>
+### Terminal commands and outputs
 
 1. First, cd into the genome_processing folder:
 
@@ -48,15 +48,15 @@ each sequence has_ (i.e. if a sequence matche once, twice or does not match the 
     aligns 2: 0.1
     elapsed time: 23.56
     ```
-</details>
-
-### Datasets and computing time
+<details><summary><b>Show datasets and computing time</b></summary>
 
 | Dataset | Reference length | Magnitude | Number of reads	| Reads length | Time and magnitude
 |---|---|---|---|---|---|
 |1 | 1000       |10<sup>3</sup>		| 600    | 50    | 0.003 s (10<sup>-3</sup>)
 |2 | 10000      |10<sup>4</sup>		| 6000   | 50    | 0.1   s (10<sup>-1</sup>)
 |3 | 100000     |10<sup>5</sup>	    | 60000  | 50    | 23    s (10<sup>2</sup>)
+
+</details>
 
 ## Airfoil lift coefficient computation
 
