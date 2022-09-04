@@ -150,7 +150,7 @@ It is able to read any data for a specific angle of attack and compute the lift 
 <tr>
 <td>
   
-**Truss Linear Equations** is a Python software to 
+**Truss Linear Equations** is a Python software to define a Truss class for loading and analyzing a 2D truss using the method of joints.
 
 <p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/truss_linear_equations/truss.png" width="700">
