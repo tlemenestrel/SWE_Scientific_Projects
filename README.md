@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This repository contains a collection of Python and C++ softwares built for solving scientific and engineering problems, mostly built using pure Python/C++ code. 
+This repository contains a collection of **Python** and **C++** softwares built for solving _scientific_ and _engineering_ problems, mostly built using —_pure_ Python/C++ code. 
 
 ## Usage 
 
-To use the code, you can simply build a conda environment from the environment file using the following commands. After this, you can simply use the terminal instructions given for each project.
+To use the code, you can simply build a `conda` environment from the **environment** file. After this, you can use the terminal instructions given for each project.
 
 1. First, build the environment using the provided .yml file:
 
@@ -19,6 +19,7 @@ To use the code, you can simply build a conda environment from the environment f
     ```
     $ conda activate swe_projects
     ```
+    
 ## Table of Contents
 
 - [Genome Processing](#Genome-Processing)
