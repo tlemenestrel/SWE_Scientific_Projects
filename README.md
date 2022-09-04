@@ -156,6 +156,32 @@ It is able to read any data for a specific angle of attack and compute the lift 
 </tr>
 </table>
 
+### Terminal commands and outputs
+
+1. First, cd into the truss_linear_equations folder:
+
+    ```
+    $ cd truss_linear_equations
+    ```
+
+2. Then, run the following command to process the data of the beams and truss files:
+
+    ```
+    $ python main truss1/joints.dat truss1/beams.dat
+    ```
+3. You should get the following output:
+    ```
+ Beam       Force
+-----------------
+    1       0.000
+    2      -1.000
+    3       0.000
+    4      -1.000
+    5       0.000
+    6       0.000
+    7      -0.000
+    8      -1.414
+    ```
 ## Image Processing
 <table>
 <tr>
