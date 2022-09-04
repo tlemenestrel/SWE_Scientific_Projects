@@ -161,12 +161,21 @@ It is able to read any data for a specific angle of attack and compute the lift 
 </table>
 
 ## Image Processing
+<table>
+<tr>
+<td>
 
 Image processing is an important category of computations utilized in many science and engineering fields. Some important computations in image processing include focus detection and various filtering operations to smooth or sharpen an image, detect edges, etc.
 
 The goal of this project is to developp a C++ image class that can read and write JPEG files, and has methods to compute the sharpness of the image and smooth the image using a box blur kernel of a specified size.
 
+<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/image_processing/boxblur.png" width="500">
+</p>
+
+</td>
+</tr>
+</table>
 
 ### Code description
 
