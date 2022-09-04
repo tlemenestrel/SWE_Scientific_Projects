@@ -20,7 +20,7 @@ reference) and the computing time.
 
 ### Outputs from terminal
 
-`python genome_processing/processdata.py genome_processing/ref_3.txt genome_processing/reads_3.txt genome_processing/align_3.txt`<br/>
+python processdata.py ref_3.txt reads_3.txt align_3.txt`<br/>
 reference_length: 100000<br/>
 number reads: 60000<br/>
 aligns 0: 0.15<br/>
@@ -61,7 +61,7 @@ error was detected when reading an input file.
 
 Starting from the top level directory (swe_scientific_projects), the terminal command is:
 
-$ python airfoil_computations/main.py airfoil_computations/naca0012/<br/>
+`python main.py naca0012/`<br/>
 Test case: NACA 0012<br/>
 
 |alpha  | cl      |stagnation pt|
