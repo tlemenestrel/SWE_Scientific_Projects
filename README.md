@@ -44,12 +44,10 @@ The goal of this project is to developp a C++ image class that can read and writ
 
 ### Code description
 
-My code first implements an image class with a constructor that accepts a string
+The code first implements an image class with a constructor that accepts a string
 containing the name of the JPEG file to be read. The constructor reads the file 
 and stores the image data as a data attribute. It calls a function called
-ReadGrayscaleJPEG(), which is pre-defined.
-
-The class also has a Save() method that writes the current version of the image 
+ReadGrayscaleJPEG(), which is pre-defined.The class also has a Save() method that writes the current version of the image 
 to a JPEG file. It takes a string containing the name of the JPEG file to be 
 written. However, if the string is empty the original filename is used instead.
 
