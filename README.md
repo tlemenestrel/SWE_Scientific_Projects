@@ -223,7 +223,7 @@ Maze Solver is a c++ software to solve a maze, given as an input txt file as a 2
 
 The code checks if the command line arguments are provided and reads them, reads the input file, first by reading the size of the array and then the maze. Then, it populates the array with 0s everywhere and 1s where there is no wall. After, it finds the entry of the maze by looking at the first row and runs a while loop that while iterate until the exit is found. At each step, the algorithm will attempt to go in different directions and store the positions at each step. Finally, the positions are given in the output file and make up the solution to the maze.
 
-The code checks if all the arguments are provided, reads the maze file and stores the dimensions of the maze. Then, it buils a csr matrix to store the maze (useful because the maze is mostly made of 0s). After, it reads the solution file, checks that the maze was properly entered on the first row, that each position change is valid and that the code reaches the exit of the maze on the last row. Finally, it prints feedback about whether the solution is valid or invalid.
+Afterwards, if all the arguments are provided properly, it reads the maze file and stores the dimensions of the maze. Then, it buils a CSR matrix to store the maze (useful because the maze is mostly made of 0s). After, it reads the solution file, checks that the maze was properly entered on the first row, that each position change is valid and that the code reaches the exit of the maze on the last row. Finally, it prints feedback about whether the solution is valid or invalid.
 
 <p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/maze_solver/maze.jpg" width="700">
