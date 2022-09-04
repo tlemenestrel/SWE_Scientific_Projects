@@ -29,16 +29,16 @@ reference) and the computing time.
 2. Then, run the following command to process a given sequence:
 
     ```
-    $ python processdata.py ref_3.txt reads_3.txt align_3.txt`
+    $ python processdata.py ref_3.txt reads_3.txt align_3.txt
     ```
 3. You should get the following output:
     ```
-    reference_length: 100000<br/>
-    number reads: 60000<br/>
-    aligns 0: 0.15<br/>
-    aligns 1: 0.75<br/>
-    aligns 2: 0.1<br/>
-    elapsed time: 23.56<br/>
+    reference_length: 100000
+    number reads: 60000
+    aligns 0: 0.15
+    aligns 1: 0.75
+    aligns 2: 0.1
+    elapsed time: 23.56
     ```
 </details>
 
