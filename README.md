@@ -64,15 +64,9 @@ each sequence has_ (i.e. if a sequence matche once, twice or does not match the 
 <tr>
 <td>
 
-**Airfoil Computations** is a Python software to compute the coefficient lift of an airfoil depending on alpha, the angle of attack. For that, various data files are given in a directory. The code reads the directory, finds the name of the different input files and computes the lift coefficient for each angle of attack.
+**Airfoil Computations** is a Python software to compute the _coefficient lift_ of an airfoil depending on **alpha**, the _angle of attack_. For that, various data files are given in a directory. The code reads the _directory_, finds the name of the different input files and computes the **lift coefficient** for each angle of attack.
 
-It is able to read any data for a specific angle of attack and compute the lift coefficient for 
-it. Therefore, it does not require the user to give the angles of attack as inputs,
- as the code is able to find them and output the lift coefficient for each of them.
-Finally, it has several error checking and exception generation to check
-that the user had provided the right path to the directory for the data files, 
-that any of the required data files were found in the data directory and if an 
-error was detected when reading an input file.
+It is able to read any data for a specific angle of attack and compute the lift coefficient for it. Therefore, it does not require the user to give the angles of attack as inputs. Finally, it has several **error checking** and **exception generation** to check that the user had provided the right _path_ to the directory for the data files, that any of the required _data files_ were found in the data directory and if an **error** was detected when reading an input file.
 
 <p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/airfoil_computations/images/angles.png" width="700">
