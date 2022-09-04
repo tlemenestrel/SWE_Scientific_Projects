@@ -14,7 +14,9 @@ This allows to identify **regions of similarity** that may be a consequence of _
 The code generates an **output file** that contains the index of the _matches of each sequence with the reference_ and the _percentage of how many matches
 each sequence has_ (i.e. if a sequence matche once, twice or does not match the reference) and the _computing time_.
 
-<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg" width="500">
+<p align="center">
+<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg" width="700">
+</p>
 
 </td>
 </tr>
