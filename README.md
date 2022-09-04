@@ -18,15 +18,29 @@ reference) and the computing time.
 
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/alignments.png" width="500">
 
-### Outputs from terminal
+<details><summary><b>Show command line commands</b></summary>
 
-python processdata.py ref_3.txt reads_3.txt align_3.txt`<br/>
-reference_length: 100000<br/>
-number reads: 60000<br/>
-aligns 0: 0.15<br/>
-aligns 1: 0.75<br/>
-aligns 2: 0.1<br/>
-elapsed time: 23.56<br/>
+1. First, cd into the genome_processing folder:
+
+    ```
+    $ cd genome_processing
+    ```
+
+2. Then, run the following command to process a given sequence:
+
+    ```
+    $ python processdata.py ref_3.txt reads_3.txt align_3.txt`
+    ```
+3. You should get the following output:
+    ```
+    reference_length: 100000<br/>
+    number reads: 60000<br/>
+    aligns 0: 0.15<br/>
+    aligns 1: 0.75<br/>
+    aligns 2: 0.1<br/>
+    elapsed time: 23.56<br/>
+    ```
+</details>
 
 ### Datasets
 
