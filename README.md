@@ -44,8 +44,6 @@ reference) and the computing time.
 
 ### Datasets and computing time
 
-<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/datasets.png" width="500">
-
 | Dataset | Reference length | Magnitude | Number of reads	| Reads length | Time and magnitude
 |---|---|---|---|---|---|
 |1 | 1000       |10<sup>3</sup>		| 600    | 50    | 0.003 s (10<sup>-3</sup>)
