@@ -169,19 +169,21 @@ It is able to read any data for a specific angle of attack and compute the lift 
     ```
     $ python main truss1/joints.dat truss1/beams.dat
     ```
+    
 3. You should get the following output:
-    ```
- Beam       Force
------------------
-    1       0.000
-    2      -1.000
-    3       0.000
-    4      -1.000
-    5       0.000
-    6       0.000
-    7      -0.000
-    8      -1.414
-    ```
+   ```
+   Beam       Force
+   ----------------
+      1       0.000
+      2      -1.000
+      3       0.000
+      4      -1.000
+      5       0.000
+      6       0.000
+      7      -0.000
+      8      -1.414
+   ```
+   
 ## Image Processing
 <table>
 <tr>
