@@ -46,11 +46,11 @@ reference) and the computing time.
 
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/datasets.png" width="500">
 
-|n°| ref_l	 |  magnitude	|reads	| rlength | time   |   magnitude
+| Dataset | Reference length | Magnitude | Number of reads	| Reads length | Time and magnitude
 |---|---|---|---|---|---|---|
-|1 | 1000       |10<sup>3</sup>		| 600    | 50    | 0.003 s |10<sup>-3</sup>
-|2 | 10000      |10<sup>4</sup>		| 6000   | 50    | 0.1   s |10<sup>-1</sup>
-|3 | 100000     |10<sup>5</sup>	    | 60000  | 50    | 23    s |10<sup>2</sup>
+|1 | 1000       |10<sup>3</sup>		| 600    | 50    | 0.003 s (10<sup>-3</sup>)
+|2 | 10000      |10<sup>4</sup>		| 6000   | 50    | 0.1   s (10<sup>-1</sup>)
+|3 | 100000     |10<sup>5</sup>	    | 60000  | 50    | 23    s (10<sup>2</sup>)
 
 ## Airfoil lift coefficient computation
 
