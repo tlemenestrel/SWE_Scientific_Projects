@@ -143,7 +143,23 @@ It is able to read any data for a specific angle of attack and compute the lift 
     | 6.00  | 0.7235  |( 0.0099, -0.0170)  0.9967|
     | 9.00  | 1.0827  |( 0.0219, -0.0246)  0.9977|
     ```
-    
+
+## Truss Linear Equations
+
+<table>
+<tr>
+<td>
+  
+**Truss Linear Equations** is a Python software to 
+
+<p align="center">
+<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/truss_linear_equations/truss.png" width="700">
+</p>
+
+</td>
+</tr>
+</table>
+
 ## Image Processing
 
 Image processing is an important category of computations utilized in many science and engineering fields. Some important computations in image processing include focus detection and various filtering operations to smooth or sharpen an image, detect edges, etc.
