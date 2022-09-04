@@ -1,13 +1,5 @@
 # Software Engineering Scientific Projects
 
-<style type="text/css">
-.centerImage
-{
- text-align:center;
- display:block;
-}
-</style>
-
 ## DNA Sequencing 
 
 This project is a Python algorithm that is able to generate DNA references and 
@@ -20,7 +12,9 @@ sequence with the reference. Also, it outputs the percentage of how many matches
 each sequence has (i.e. if a sequence matche once, twice or does not match the 
 reference) and the computing time.
 
+<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg" width="500" class="centerImage">
+</p>
 
 ### Alignments and references
 
