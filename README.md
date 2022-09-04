@@ -75,7 +75,7 @@ that any of the required data files were found in the data directory and if an
 error was detected when reading an input file.
 
 <p align="center">
-<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/airfoil_computations/images/angles.png" width="500">
+<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/airfoil_computations/images/angles.png" width="700">
 </p>
 
 </td>
