@@ -48,7 +48,7 @@ each sequence has_ (i.e. if a sequence matche once, twice or does not match the 
     aligns 2: 0.1
     elapsed time: 23.56
     ```
-<details><summary><b>Show datasets and computing time</b></summary>
+<details><summary><b>Show datasets and computing time</b></summary></br>
 
 | Dataset | Reference length | Magnitude | Number of reads	| Reads length | Time and magnitude
 |---|---|---|---|---|---|
