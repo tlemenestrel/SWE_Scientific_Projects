@@ -37,7 +37,7 @@ each sequence has_ (i.e. if a sequence matche once, twice or does not match the 
 2. Then, run the following command to process a given sequence:
 
     ```
-    $ python processdata.py ref_3.txt reads_3.txt align_3.txt
+    $ python processdata.py references/ref_3.txt reads/reads_3.txt alignments/align_3.txt
     ```
 3. You should get the following output:
     ```
