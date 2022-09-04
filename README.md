@@ -19,7 +19,9 @@ error was detected when reading an input file.
 
 ### Outputs
 
-$ python main.py naca0012/<br/>
+Starting from the top level directory (swe_scientific_projects), the terminal command is:
+
+$ python airfoil_computations/main.py airfoil_computations/naca0012/<br/>
 Test case: NACA 0012<br/>
 
 |alpha  | cl      |stagnation pt|
