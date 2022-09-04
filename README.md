@@ -42,11 +42,9 @@ reference) and the computing time.
     ```
 </details>
 
-### Datasets
+### Datasets and computing time
 
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/datasets.png" width="500">
-
-### Computing time
 
 |n°| ref_l	 |  magnitude	|reads	| rlength | time   |   magnitude
 |---|---|---|---|---|---|---|
