@@ -1,5 +1,7 @@
 # Software Engineering Scientific Projects
 
+Add a list of the projects
+
 ## DNA Sequencing 
 
 This project is a Python algorithm that is able to generate DNA references and 
