@@ -113,8 +113,9 @@ The 4th function writes the final output file and iterates over the dictionnary 
 2. Then, run the following command to run the software on the ml-100k dataset:
 
     ```
-    $ $ python3 similarity.py ml-100k/u.data similarities.txt
+    $ $ python similarity.py ml-100k/u.data similarities.txt
     ```
+    
 3. You should get the following output:
     ```
     Input MovieLens file: ml-100k/u.data
@@ -155,6 +156,7 @@ It is able to read any data for a specific angle of attack and compute the lift 
     ```
     $ python main.py naca0012/
     ```
+    
 3. You should get the following output:
     ```
     |alpha  | cl      |stagnation pt|
@@ -224,7 +226,7 @@ The code checks if the command line arguments are provided and reads them, reads
 The code checks if all the arguments are provided, reads the maze file and stores the dimensions of the maze. Then, it buils a csr matrix to store the maze (useful because the maze is mostly made of 0s). After, it reads the solution file, checks that the maze was properly entered on the first row, that each position change is valid and that the code reaches the exit of the maze on the last row. Finally, it prints feedback about whether the solution is valid or invalid.
 
 <p align="center">
-<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/maze_solver/maze.png" width="700">
+<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/maze_solver/maze.jpeg" width="700">
 </p>
 
 </td>
