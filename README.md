@@ -82,23 +82,30 @@ error was detected when reading an input file.
 </tr>
 </table>
 
-### Outputs
+### Terminal commands and outputs
 
-Starting from the top level directory (swe_scientific_projects), the terminal command is:
+1. First, cd into the airfoil_computations folder:
 
-`python main.py naca0012/`<br/>
-Test case: NACA 0012<br/>
+    ```
+    $ cd airfoil_computations
+    ```
 
-|alpha  | cl      |stagnation pt|
-|-----  |-------  |--------------------------|
-|-3.00  |-0.3622  |( 0.0030,  0.0094)  0.9906|
-| 0.00  | 0.0000  |( 0.0000,  0.0000)  0.9944|
-| 3.00  | 0.3622  |( 0.0030, -0.0094)  0.9906|
-| 6.00  | 0.7235  |( 0.0099, -0.0170)  0.9967|
-| 9.00  | 1.0827  |( 0.0219, -0.0246)  0.9977|
+2. Then, run the following command to process the data of one of the example directories:
 
-<img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/airfoil_computations/images/airfoil.png" width="500">
-
+    ```
+    $ python main.py naca0012/
+    ```
+3. You should get the following output:
+    ```
+    |alpha  | cl      |stagnation pt|
+    |-----  |-------  |--------------------------|
+    |-3.00  |-0.3622  |( 0.0030,  0.0094)  0.9906|
+    | 0.00  | 0.0000  |( 0.0000,  0.0000)  0.9944|
+    | 3.00  | 0.3622  |( 0.0030, -0.0094)  0.9906|
+    | 6.00  | 0.7235  |( 0.0099, -0.0170)  0.9967|
+    | 9.00  | 1.0827  |( 0.0219, -0.0246)  0.9977|
+    ```
+    
 ## Image Processing
 
 Image processing is an important category of computations utilized in many science and engineering fields. Some important computations in image processing include focus detection and various filtering operations to smooth or sharpen an image, detect edges, etc.
