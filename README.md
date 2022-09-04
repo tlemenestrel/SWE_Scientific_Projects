@@ -20,7 +20,7 @@ reference) and the computing time.
 
 ### Outputs from terminal
 
-$ python genome_processing/processdata.py genome_processing/ref_3.txt genome_processing/reads_3.txt genome_processing/align_3.txt<br/>
+'python genome_processing/processdata.py genome_processing/ref_3.txt genome_processing/reads_3.txt genome_processing/align_3.txt'<br/>
 reference_length: 100000<br/>
 number reads: 60000<br/>
 aligns 0: 0.15<br/>
