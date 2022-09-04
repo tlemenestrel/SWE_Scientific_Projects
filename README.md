@@ -1,12 +1,31 @@
 # Software Engineering Scientific Projects
 
+## Introduction
+
+This repository contains a collection of Python and C++ softwares built for solving scientific and engineering problems. Most are built using pure Python/C++ code. 
+
+## Usage 
+
+To use the code, you can simply build a conda environment from the environment file using the following commands. After this, you can simply use the terminal instructions given for each project.
+
+1. First, build the environment using the provided .yml file:
+
+    ```
+    $ conda env create -f swe_projects.yml
+    ```
+
+2. Then, run the following command to activate the environment:
+
+    ```
+    $ conda activate swe_projects
+    ```
 ## Table of Contents
 
 - [Genome Processing](#Genome-Processing)
 - [Recommendation Algorithm](#Recommendation-Algorithm)
 - [Airfoil Computations](#Airfoil-Computations)
 - [Truss Linear Equations](#Truss-Linear-Equations)
-- [## Image Processing](### Image-Processing)
+- [Image Processing](### Image-Processing)
 
 ## Genome Processing
 
