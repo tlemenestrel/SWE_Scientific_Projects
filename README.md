@@ -12,15 +12,11 @@ sequence with the reference. Also, it outputs the percentage of how many matches
 each sequence has (i.e. if a sequence matche once, twice or does not match the 
 reference) and the computing time.
 
-<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/dna.jpg" width="500">
-</p>
 
 ### Alignments and references
 
-<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/alignments.png" width="500">
-</p>
 
 ### Outputs from terminal
 
@@ -50,9 +46,7 @@ elapsed time: 23.56<br/>
 
 ### Datasets
 
-<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/genome_processing/images/datasets.png" width="500">
-</p>
 
 ### Computing time
 
@@ -77,9 +71,7 @@ that the user had provided the right path to the directory for the data files,
 that any of the required data files were found in the data directory and if an 
 error was detected when reading an input file.
 
-<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/airfoil_computations/images/angles.png" width="500">
-</p>
 
 ### Outputs
 
@@ -96,9 +88,7 @@ Test case: NACA 0012<br/>
 | 6.00  | 0.7235  |( 0.0099, -0.0170)  0.9967|
 | 9.00  | 1.0827  |( 0.0219, -0.0246)  0.9977|
 
-<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/airfoil_computations/images/airfoil.png" width="500">
-</p>
 
 ## Image Processing
 
@@ -106,9 +96,7 @@ Image processing is an important category of computations utilized in many scien
 
 The goal of this project is to developp a C++ image class that can read and write JPEG files, and has methods to compute the sharpness of the image and smooth the image using a box blur kernel of a specified size.
 
-<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/image_processing/boxblur.png" width="500">
-</p>
 
 ### Code description
 
@@ -129,6 +117,4 @@ Finally, the main file loads the image stanford.jpg and computes and outputs
 the sharpness for kernel sizes of 3, 7, . . . , 23, 27 and then compute and 
 output the sharpness of the resulting images.
 
-<p align="center">
 <img src="https://github.com/tlemenestrel/swe_scientific_projects/blob/master/image_processing/matrix.png" width="500">
-</p>
