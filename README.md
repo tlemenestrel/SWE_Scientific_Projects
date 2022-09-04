@@ -25,7 +25,7 @@ To use the code, you can simply build a conda environment from the environment f
 - [Recommendation Algorithm](#Recommendation-Algorithm)
 - [Airfoil Computations](#Airfoil-Computations)
 - [Truss Linear Equations](#Truss-Linear-Equations)
-- [Image Processing](### Image-Processing)
+- [Image Processing](#Image-Processing)
 
 ## Genome Processing
 
