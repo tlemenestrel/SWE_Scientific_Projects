@@ -48,9 +48,9 @@ reference) and the computing time.
 
 |n°| ref_l	 |  magnitude	|reads	| rlength | time   |   magnitude
 |---|---|---|---|---|---|---|
-|1 | 1000       |10x^3 		| 600    | 50    | 0.003 s |10x^-3
-|2 | 10000      |10x^4		| 6000   | 50    | 0.1   s |10x^-1
-|3 | 100000     |10x^5	    | 60000  | 50    | 23    s |10x^2
+|1 | 1000       |10<sup>3</sup>		| 600    | 50    | 0.003 s |10<sup>-3</sup>
+|2 | 10000      |10<sup>4</sup>		| 6000   | 50    | 0.1   s |10<sup>-1</sup>
+|3 | 100000     |10<sup>5</sup>	    | 60000  | 50    | 23    s |10<sup>2</sup>
 
 ## Airfoil lift coefficient computation
 
